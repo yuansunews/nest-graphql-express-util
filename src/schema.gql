@@ -1,0 +1,17 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+"""cat"""
+type Cat {
+  id: ID!
+  name: String
+}
+
+type Mutation {
+  addCat(catName: String!): Cat!
+}
+
+type Query {
+  sayHello: String!
+}
